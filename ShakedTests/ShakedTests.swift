@@ -9,7 +9,15 @@
 import XCTest
 @testable import Shaked
 
+class ShakeProtocolImplenentation: ShakeControllerDelegate {
+    
+    func didFinishShaking(sender: ShakeController){
+        print ("Shake happened")
+    }
+}
+
 class ShakedTests: XCTestCase {
+    
     
     override func setUp() {
         super.setUp()
@@ -24,6 +32,11 @@ class ShakedTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let viewController = ShakeController()
+        let shakeDelegate = ShakeProtocolImplenentation()
+        viewController.delegate = shakeDelegate
+        XCTAssertNotNil(viewController.delegate)
+        
     }
     
     func testPerformanceExample() {
