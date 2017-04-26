@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7395C4E11EAFA24800AD8924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7395C4E01EAFA24800AD8924 /* AppDelegate.swift */; };
-		7395C4E31EAFA24800AD8924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7395C4E21EAFA24800AD8924 /* ViewController.swift */; };
+		7395C4E31EAFA24800AD8924 /* ShakeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7395C4E21EAFA24800AD8924 /* ShakeController.swift */; };
 		7395C4E61EAFA24800AD8924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7395C4E41EAFA24800AD8924 /* Main.storyboard */; };
 		7395C4E81EAFA24800AD8924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7395C4E71EAFA24800AD8924 /* Assets.xcassets */; };
 		7395C4EB1EAFA24800AD8924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7395C4E91EAFA24800AD8924 /* LaunchScreen.storyboard */; };
 		7395C4F61EAFA24800AD8924 /* ShakedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7395C4F51EAFA24800AD8924 /* ShakedTests.swift */; };
+		7395C5011EB095C100AD8924 /* ItHappened .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7395C5001EB095C100AD8924 /* ItHappened .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		7395C4DD1EAFA24800AD8924 /* Shaked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shaked.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7395C4E01EAFA24800AD8924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7395C4E21EAFA24800AD8924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7395C4E21EAFA24800AD8924 /* ShakeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeController.swift; sourceTree = "<group>"; };
 		7395C4E51EAFA24800AD8924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7395C4E71EAFA24800AD8924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7395C4EA1EAFA24800AD8924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		7395C4F11EAFA24800AD8924 /* ShakedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7395C4F51EAFA24800AD8924 /* ShakedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakedTests.swift; sourceTree = "<group>"; };
 		7395C4F71EAFA24800AD8924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7395C5001EB095C100AD8924 /* ItHappened .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItHappened .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				7395C4E01EAFA24800AD8924 /* AppDelegate.swift */,
-				7395C4E21EAFA24800AD8924 /* ViewController.swift */,
+				7395C4E21EAFA24800AD8924 /* ShakeController.swift */,
+				7395C5001EB095C100AD8924 /* ItHappened .swift */,
 				7395C4E41EAFA24800AD8924 /* Main.storyboard */,
 				7395C4E71EAFA24800AD8924 /* Assets.xcassets */,
 				7395C4E91EAFA24800AD8924 /* LaunchScreen.storyboard */,
@@ -201,7 +204,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7395C4E31EAFA24800AD8924 /* ViewController.swift in Sources */,
+				7395C4E31EAFA24800AD8924 /* ShakeController.swift in Sources */,
+				7395C5011EB095C100AD8924 /* ItHappened .swift in Sources */,
 				7395C4E11EAFA24800AD8924 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
